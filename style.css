@@ -1,9 +1,13 @@
 * {
   margin: 0px;
   box-sizing: border-box;
+  overflow-x: hidden;
   padding: 0px;
 }
 
+.d{
+  overflow: hidden;
+}
 body {
  width: 100%; 
 }
@@ -93,7 +97,7 @@ margin-left:2vw;
 
 .home-title {
   color: var(--Neutral-800, #170f49);
-  font-size: 50px;
+  font-size: 3rem;
   line-height: 65px;
   word-spacing: 6px;
 }
@@ -125,7 +129,7 @@ margin-left:2vw;
   }
   .home-title {
     text-align: left;
-    font-size: 30px;
+    font-size: 2rem;
     line-height: 40px;
   }
   .home-img {
@@ -135,7 +139,7 @@ margin-left:2vw;
 .problem-page {
   display: flex;
   background-color: #ededed;
-  height: 50vh;
+  height: fit-content;
   
 }
 .problem-video {
@@ -156,14 +160,13 @@ margin-left:2vw;
   font-weight: 300;
   font-size: 1.3rem;
   color: #6f6c90;
-  font-family: "Tajawal", sans-serif;
   line-height: 1.5;
 }
 .problem-founder {
   position: relative;
   margin-top: 10%;
   font: 1em sans-serif;
-  margin-left: 50%;
+  margin-left: 60%;
 }
 .designation {
   font-weight: 400;
@@ -194,7 +197,7 @@ margin-left:5%;
     display: none;
   }
   .problem-founder {
-    margin-left: 30%;
+    margin-left: 50%;
   }
   .problem-container {
     margin: 30px;
@@ -240,6 +243,7 @@ margin-left:5%;
 .para {
   color: #3c3c3c;
   text-align: center;
+
   font-family: "DM Sans";
   font-size: 1rem;
   font-style: normal;
@@ -261,7 +265,7 @@ margin-left:5%;
 
 .para1 {
   display: flex;
-
+  align-items: center;
   width:100%;
   justify-content: space-around;
 
